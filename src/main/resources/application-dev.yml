@@ -1,0 +1,24 @@
+server:
+    port: 8778
+
+debug: true
+
+spring:
+    cloud:
+        zookeeper:
+            connectString: 127.0.0.1:2181
+            enabled: false
+    sleuth:
+        enabled: false
+
+swagger:
+    basePackage: com.ckcloud.cktest.controller
+    title: ctg-ckcloud-cktest RESTful APIs
+    description: ctg-ckcloud-cktest RESTful API
+    version: 1.0.0-SNAPSHOT
+    openApi:
+        group: OpenApi
+        basePackage: com.ckcloud.cktest.controller
+        title: actg-ckcloud-cktest Open APIs
+        description: ctg-ckcloud-cktest Open API
+        version: 1.0.0-SNAPSHOT
