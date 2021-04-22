@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T10:21:01.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="84axVdzn0Lrf4ysIDmih" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T10:42:34.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="LF7qHfmGEIs3MVZU-9Yk" version="14.6.5" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="1287" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
             <mxPoint x="270" y="171" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91grLDrV8FItByj2K50K-65" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=none;fontSize=9;fontColor=#4D9900;strokeColor=#4D9900;" parent="1" source="91grLDrV8FItByj2K50K-63" target="91grLDrV8FItByj2K50K-48" edge="1">
+        <mxCell id="91grLDrV8FItByj2K50K-65" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=none;fontSize=9;fontColor=#4D9900;strokeColor=#4D9900;" parent="1" source="91grLDrV8FItByj2K50K-63" target="91grLDrV8FItByj2K50K-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="247" as="targetPoint" />
           </mxGeometry>
@@ -60,10 +60,11 @@
             <mxPoint x="450" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91grLDrV8FItByj2K50K-69" value="通知PaaS绑定结束" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;labelBackgroundColor=none;fontSize=9;fontColor=#4D9900;strokeColor=#4D9900;exitX=0.069;exitY=0.861;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZwiiK09C_VbupCyEyqyy-8" target="91grLDrV8FItByj2K50K-63" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="91grLDrV8FItByj2K50K-69" value="通知PaaS绑定结束" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;labelBackgroundColor=none;fontSize=9;fontColor=#4D9900;strokeColor=#4D9900;exitX=-0.3;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZwiiK09C_VbupCyEyqyy-21" target="91grLDrV8FItByj2K50K-63" edge="1">
+          <mxGeometry x="-0.0219" y="-4" relative="1" as="geometry">
             <mxPoint x="450" y="266" as="targetPoint" />
             <mxPoint x="874.75" y="425.028" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="91grLDrV8FItByj2K50K-70" value="云管平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;strokeColor=#7EA6E0;fillColor=#7EA6E0;gradientColor=#ffffff;" parent="1" vertex="1">
@@ -108,7 +109,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="91grLDrV8FItByj2K50K-117" value="组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#7EA6E0;fillColor=#7EA6E0;gradientColor=#ffffff;perimeterSpacing=3;" parent="1" vertex="1">
-          <mxGeometry x="990" y="61" width="100" height="459.5" as="geometry" />
+          <mxGeometry x="990" y="61" width="100" height="509" as="geometry" />
         </mxCell>
         <mxCell id="ZwiiK09C_VbupCyEyqyy-7" value="IaasAdapter服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;strokeColor=#7EA6E0;fillColor=#7EA6E0;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="702.25" y="61" width="105.5" height="460" as="geometry" />
@@ -134,12 +135,15 @@
         <mxCell id="ZwiiK09C_VbupCyEyqyy-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=9;fontColor=#4D9900;strokeColor=#7EA6E0;strokeWidth=3;fillColor=#4D9900;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="590" y="430" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZwiiK09C_VbupCyEyqyy-22" value="记录弹性IP绑定状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=none;fontSize=9;fontColor=#4D9900;strokeColor=#4D9900;" edge="1" target="ZwiiK09C_VbupCyEyqyy-21" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595" y="410" as="sourcePoint" />
+        <mxCell id="ZwiiK09C_VbupCyEyqyy-22" value="记录弹性IP&lt;br&gt;绑定状态" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;labelBackgroundColor=none;fontSize=9;fontColor=#4D9900;strokeColor=#4D9900;" edge="1" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="594" y="390" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="625" y="410" />
+              <mxPoint x="650" y="390" />
+              <mxPoint x="650" y="430" />
             </Array>
+            <mxPoint x="600" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
