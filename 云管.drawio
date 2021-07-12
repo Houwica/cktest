@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T09:07:27.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="wzMyEQo9Z8UuWEaKLwAj" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T09:27:27.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pAoIjGUc3tsLAXHsPmQh" version="14.8.5" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="1108" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=216.5;exitDy=90;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-6" target="tBHKLctIXgyot9-Yo7T3-15">
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-6" target="tBHKLctIXgyot9-Yo7T3-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-6" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="419.25" y="850" width="216.5" height="160" as="geometry" />
+          <mxGeometry x="414.25" y="850" width="216.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="91grLDrV8FItByj2K50K-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#99FF33;fillColor=#4D9900;" parent="1" vertex="1">
           <mxGeometry x="100" y="110" width="10" height="300" as="geometry" />
@@ -161,7 +161,7 @@
         <mxCell id="tBHKLctIXgyot9-Yo7T3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-2" target="tBHKLctIXgyot9-Yo7T3-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-2" value="SNAT设备&lt;br&gt;硬件，如路由器&lt;br&gt;将公网IP替换为VIP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-2" value="NAT设备 SNAT和DNAT功能，如路由器&lt;br&gt;将公网IP替换为VIP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-3" target="tBHKLctIXgyot9-Yo7T3-5">
@@ -182,23 +182,35 @@
         <mxCell id="tBHKLctIXgyot9-Yo7T3-14" value="负载均衡 + 高可用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="472.25" y="830" width="100" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-15" target="tBHKLctIXgyot9-Yo7T3-16">
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-15" target="tBHKLctIXgyot9-Yo7T3-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-15" value="Nginx&lt;br&gt;前端工程服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="920" width="90" height="30" as="geometry" />
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-15" value="Nginx&lt;br&gt;前端工程服务器&lt;br&gt;静态资源 + 前后端分离的路由转发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="892.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-16" target="tBHKLctIXgyot9-Yo7T3-17">
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-16" target="tBHKLctIXgyot9-Yo7T3-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-16" value="Zuul&lt;br&gt;后端网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="920" width="90" height="30" as="geometry" />
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-16" value="Zuul&lt;br&gt;后端网关&lt;br&gt;服务端口：8714" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="825.5" y="907.5" width="94.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-17" value="后端服务集群" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="895" width="120" height="80" as="geometry" />
+          <mxGeometry x="960" y="890" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-26" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="840" width="30" height="60" as="geometry" />
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-26" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-35" value="http://183.146.30.7:8080/cloud/#/login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="880" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-39" value="监听端口：8080&lt;br&gt;转发到Zuul端口：8714" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="837.5" width="130" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-40" value="根据端口后的Url转发到对应的服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="813.25" y="838.75" width="132.25" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-43" value="Web浏览器和程序后端服务请求的差异？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1030" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
