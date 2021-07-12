@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T09:31:32.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="cg5vn3-bW9GiMUUI1PWw" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T09:36:47.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="iKy8zk0kdXAU-BK041kr" version="14.8.5" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="1108" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
         <mxCell id="tBHKLctIXgyot9-Yo7T3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-2" target="tBHKLctIXgyot9-Yo7T3-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-2" value="NAT设备 SNAT和DNAT功能，如路由器&lt;br&gt;将公网IP替换为VIP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-2" value="NAT设备 SNAT和DNAT功能，IP报文中公网IP替换为VIP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tBHKLctIXgyot9-Yo7T3-3" target="tBHKLctIXgyot9-Yo7T3-5">
@@ -171,10 +171,10 @@
           <mxGeometry x="445" y="920" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-4" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="880" width="78.5" height="40" as="geometry" />
+          <mxGeometry x="541.5" y="890" width="78.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-5" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="940" width="80" height="40" as="geometry" />
+          <mxGeometry x="540" y="950" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-12" value="KeepAlived&amp;nbsp; + 双Nginx&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="445" y="855" width="155" height="10" as="geometry" />
@@ -209,8 +209,8 @@
         <mxCell id="tBHKLctIXgyot9-Yo7T3-40" value="根据端口后的Url转发到对应的服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="813.25" y="838.75" width="132.25" height="41.25" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-43" value="Web浏览器和程序后端服务请求的差异？&lt;br&gt;web浏览器请求的是前端项目的监听端口？&lt;br&gt;后台服务调用" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="970" width="220" height="110" as="geometry" />
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-43" value="Web浏览器和程序后端服务请求的差异？&lt;br&gt;web浏览器请求的是前端项目的监听端口？&lt;br&gt;后台服务如何调用？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="980" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
