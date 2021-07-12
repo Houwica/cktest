@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T09:36:47.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="iKy8zk0kdXAU-BK041kr" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-12T09:40:05.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="159Pu3vZUe-6t9zDhAmM" version="14.8.5" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="1108" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="tBHKLctIXgyot9-Yo7T3-40" value="根据端口后的Url转发到对应的服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="813.25" y="838.75" width="132.25" height="41.25" as="geometry" />
         </mxCell>
-        <mxCell id="tBHKLctIXgyot9-Yo7T3-43" value="Web浏览器和程序后端服务请求的差异？&lt;br&gt;web浏览器请求的是前端项目的监听端口？&lt;br&gt;后台服务如何调用？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tBHKLctIXgyot9-Yo7T3-43" value="Web浏览器和程序后端服务请求的差异？&lt;br&gt;web浏览器请求的是前端项目的监听端口？&lt;br&gt;后台服务如何调用？&lt;br&gt;防火墙的端口限制?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="72.5" y="980" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
