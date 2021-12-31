@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T04:26:46.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Ra5U9aVFBemkgGUyNCpN" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T01:53:06.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4NK5ysoGGLLHDUWwMPhJ" version="15.5.0" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-15" value="Nginx&lt;br&gt;前端工程服务器&lt;br&gt;静态资源 + 前后端分离的路由转发" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="892.5" width="100" height="75" as="geometry" />
+          <mxGeometry x="702.25" y="892.5" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tBHKLctIXgyot9-Yo7T3-16" target="tBHKLctIXgyot9-Yo7T3-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -399,9 +399,6 @@
         <mxCell id="i96eKVEhpFbZin9OX3LN-4" value="解绑安全组中&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%BB%91%E5%AE%9A%E5%AE%89%E5%85%A8%E7%BB%84%E4%B8%AD%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%222440%22%20width%3D%22120%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="582.25" y="2200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="i96eKVEhpFbZin9OX3LN-5" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="2910" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="i96eKVEhpFbZin9OX3LN-6" value="解绑弹性IP" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="582.25" y="2470" width="120" height="80" as="geometry" />
         </mxCell>
@@ -434,26 +431,79 @@
             <mxPoint x="8" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-1" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="2920" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2910" width="20" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-2" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2930" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-2" target="jkFUeJjLdwPN5QfP2WHS-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-3" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="2940" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-2" value="申请资源开通" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2910" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-4" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="527.75" y="2843" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-8" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-3" target="jkFUeJjLdwPN5QfP2WHS-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-5" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="537.75" y="2853" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.6;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-3" target="jkFUeJjLdwPN5QfP2WHS-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-6" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="547.75" y="2863" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-16" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jkFUeJjLdwPN5QfP2WHS-10">
+          <mxGeometry x="-0.1586" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="NSNvOvhrXasMIvLlhE0n-7" value="绑定弹性IP中" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="557.75" y="2873" width="120" height="80" as="geometry" />
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-3" value="是否关联了资源配额模板？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2990" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-7" target="jkFUeJjLdwPN5QfP2WHS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-7" value="查询当前租户关联的配额模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="3120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-33" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-17" target="jkFUeJjLdwPN5QfP2WHS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-34" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="3150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="3255" />
+              <mxPoint x="500" y="3150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-17" value="租户已开通资源是否&lt;br&gt;已达到配额上限？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262" y="3220" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-29" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="2880" width="410" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-31" value="云管平台" style="swimlane;startSize=20;fillColor=#66FFFF;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-29">
+          <mxGeometry x="20" width="390" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-19" value="禁止资源开通，提示用户资源已到配额上限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-31">
+          <mxGeometry x="92.5" y="450" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-9" value="底层资源开通" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-31">
+          <mxGeometry x="237.5" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-30" value="IaaS集群" style="swimlane;startSize=20;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="582.25" y="2880" width="287.75" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-38" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#FF6666;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-30">
+          <mxGeometry x="47.75" y="110" width="212.25" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-39" value="云桌面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-30">
+          <mxGeometry x="107.75" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-40" value="一部私有云" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-30">
+          <mxGeometry x="107.75" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-42" value="云聚系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-30">
+          <mxGeometry x="107.75" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jkFUeJjLdwPN5QfP2WHS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=96.125;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jkFUeJjLdwPN5QfP2WHS-9" target="jkFUeJjLdwPN5QfP2WHS-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
