@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T13:11:14.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="fSsrjz1lXzS6OmfUY0L6" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T10:56:22.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lIN3vwAzQqs3AvsksiuG" version="16.2.2" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,7 +458,7 @@
         <mxCell id="jkFUeJjLdwPN5QfP2WHS-9" value="底层资源开通" style="rounded=0;whiteSpace=wrap;html=1;" parent="jkFUeJjLdwPN5QfP2WHS-31" vertex="1">
           <mxGeometry x="237.5" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-5" value="拦截器&lt;br&gt;获取URI，租户，资源池信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jkFUeJjLdwPN5QfP2WHS-31">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-5" value="拦截器&lt;br&gt;获取URI，租户，资源池信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="jkFUeJjLdwPN5QfP2WHS-31" vertex="1">
           <mxGeometry x="80.5" y="90" width="119.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jkFUeJjLdwPN5QfP2WHS-17" value="租户已开通资源是否&lt;br&gt;已达到配额上限？" style="rhombus;whiteSpace=wrap;html=1;" parent="jkFUeJjLdwPN5QfP2WHS-31" vertex="1">
@@ -505,65 +505,66 @@
         <mxCell id="jkFUeJjLdwPN5QfP2WHS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=96.125;entryDy=0;entryPerimeter=0;" parent="1" source="jkFUeJjLdwPN5QfP2WHS-9" target="jkFUeJjLdwPN5QfP2WHS-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f4WiN_Aw6u9IT2UmWRo3-1" target="f4WiN_Aw6u9IT2UmWRo3-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-1" value="拦截器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="3810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="3810" width="20" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4WiN_Aw6u9IT2UmWRo3-3" target="f4WiN_Aw6u9IT2UmWRo3-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-3" value="&lt;br&gt;URI&amp;nbsp; ---&amp;gt;&amp;nbsp; 租户信息，资源池信息&lt;br&gt;&lt;br&gt;/infiaas/vip/aaply&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;select count(*) from vip_addr where tenant_id = ${0} and res_pool_code = ${1};&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;res_type = vip&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="4040" width="320" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f4WiN_Aw6u9IT2UmWRo3-7" target="f4WiN_Aw6u9IT2UmWRo3-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-7" value="是否关联了资源配额模板？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="3920" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-11" value="统一处理类&lt;br&gt;方法：根据具体的SQL获取已有资源的数量；&lt;br&gt;获取租户下具体的资源类型的对应的数量上限；" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="4380" width="360" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f4WiN_Aw6u9IT2UmWRo3-19" target="f4WiN_Aw6u9IT2UmWRo3-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-19" value="规则执行器抽象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="4280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-25" value="请求分发器" style="swimlane;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-25" value="拦截器模块" style="swimlane;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="3760" width="465" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-26" value="规则执行器" style="swimlane;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gwWw7k26BOFWanWj-a6_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="f4WiN_Aw6u9IT2UmWRo3-25" source="gwWw7k26BOFWanWj-a6_-1" target="gwWw7k26BOFWanWj-a6_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwWw7k26BOFWanWj-a6_-1" value="获取请求中报文信息：包含URI，租户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-25">
+          <mxGeometry x="170" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gwWw7k26BOFWanWj-a6_-2" value="是否关联了资源配额模板？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-25">
+          <mxGeometry x="150" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-1" value="拦截器" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-25" vertex="1">
+          <mxGeometry x="170" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gwWw7k26BOFWanWj-a6_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="f4WiN_Aw6u9IT2UmWRo3-25" source="f4WiN_Aw6u9IT2UmWRo3-1" target="gwWw7k26BOFWanWj-a6_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwWw7k26BOFWanWj-a6_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="f4WiN_Aw6u9IT2UmWRo3-25" source="gwWw7k26BOFWanWj-a6_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwWw7k26BOFWanWj-a6_-6" value="获取配额模板下具体规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-25">
+          <mxGeometry x="170" y="292" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-26" value="规则执行器" style="swimlane;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="575" y="3760" width="345" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-24" value="具体的执行器实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-26">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-24" value="具体的执行器实例" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-26" vertex="1">
           <mxGeometry x="115" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-8" value="VIP具体处理类&lt;br&gt;调用规则引擎的自定义函数；&lt;br&gt;vipJudgeRule（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-26">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-8" value="VIP具体处理类&lt;br&gt;调用规则引擎的自定义函数；&lt;br&gt;vipJudgeRule（）" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-26" vertex="1">
           <mxGeometry x="35" y="412.5" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-14" value="云主机具体处理类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-26">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-14" value="云主机具体处理类" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-26" vertex="1">
           <mxGeometry x="45" y="552" width="250" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-9" value="MyBatisExecutor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-26">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-9" value="MyBatisExecutor" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-26" vertex="1">
           <mxGeometry x="112.5" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-27" value="规则引擎" style="swimlane;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-27" value="规则引擎" style="swimlane;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="920" y="3760" width="345" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-16" value="云主机具体处理类&lt;br&gt;调用规则引擎的自定义函数；&lt;br&gt;组合规则的实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-27">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-16" value="云主机具体处理类&lt;br&gt;调用规则引擎的自定义函数；&lt;br&gt;组合规则的实现" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-27" vertex="1">
           <mxGeometry x="45" y="552" width="268" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-15" value="VIP&lt;br&gt;针对不同的资源开发自己的特有的规则处理函数；" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-27">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-15" value="VIP&lt;br&gt;针对不同的资源开发自己的特有的规则处理函数；" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-27" vertex="1">
           <mxGeometry x="40" y="415" width="270" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-21" value="规则引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="f4WiN_Aw6u9IT2UmWRo3-27">
+        <mxCell id="f4WiN_Aw6u9IT2UmWRo3-21" value="规则引擎" style="rounded=0;whiteSpace=wrap;html=1;" parent="f4WiN_Aw6u9IT2UmWRo3-27" vertex="1">
           <mxGeometry x="119" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwWw7k26BOFWanWj-a6_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gwWw7k26BOFWanWj-a6_-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="4050" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
