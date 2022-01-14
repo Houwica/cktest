@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T03:49:47.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mpr1z_JCCfgsCR4Btpe2" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T06:57:59.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nZ7dsE3zvaIGztIIJEyA" version="16.2.4" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="2077" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2465" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -844,12 +844,12 @@
         <mxCell id="RlNPRhiDvZ_aDvy_OEjr-72" value="租户配额用量" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="1">
           <mxGeometry x="589.69" y="6603" width="82.63" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="管理侧" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-74">
+        <UserObject label="管理域" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-74">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;" vertex="1" parent="1">
             <mxGeometry x="518" y="6525" width="20" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="应用&lt;br&gt;侧" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-75">
+        <UserObject label="应用&lt;br&gt;域" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-75">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;" vertex="1" parent="1">
             <mxGeometry x="518" y="6675" width="20" height="80" as="geometry" />
           </mxCell>
