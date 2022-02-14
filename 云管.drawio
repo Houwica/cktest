@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T06:48:34.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="pc_eXrbut1tjA7k2D-PR" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T06:54:25.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="YdyDXghri_Xy2_qIv6O8" version="16.2.7" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="2351" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1006,16 +1006,19 @@
           <mxGeometry x="-670" y="8060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lwCi4-xqn7X1TZTFm4Vd-4" value="解析tar包，根据目录层级找到shell脚本，然后通过java程序要执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="7800" width="120" height="60" as="geometry" />
+          <mxGeometry x="-434" y="7830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lwCi4-xqn7X1TZTFm4Vd-8" value="Python模板的渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-670" y="8183" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lwCi4-xqn7X1TZTFm4Vd-10" value="主要目的是生成配置文件；" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="8183" width="120" height="60" as="geometry" />
+          <mxGeometry x="-444" y="8183" width="154" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lwCi4-xqn7X1TZTFm4Vd-11" value="在Docker内执行Ansible文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-670" y="8290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-15" value="&lt;ol&gt;&lt;li&gt;目录文件的定义&lt;/li&gt;&lt;li&gt;描述文件中key值得理解&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="8000" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
