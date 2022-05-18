@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T06:54:25.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="YdyDXghri_Xy2_qIv6O8" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T10:24:12.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="OysByjRxz_-VEHH0cDb3" version="18.0.7" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="2351" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -984,41 +984,95 @@
         <mxCell id="RlNPRhiDvZ_aDvy_OEjr-132" value="" style="swimlane;startSize=0;fontSize=7;strokeWidth=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="-622" y="7650" width="390" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-1" target="lwCi4-xqn7X1TZTFm4Vd-4">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-1" target="lwCi4-xqn7X1TZTFm4Vd-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-1" target="lwCi4-xqn7X1TZTFm4Vd-2">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-1" target="lwCi4-xqn7X1TZTFm4Vd-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-1" value="TaskDeployer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-1" value="TaskDeployer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-670" y="7830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-2" target="lwCi4-xqn7X1TZTFm4Vd-3">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-2" target="lwCi4-xqn7X1TZTFm4Vd-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-2" value="调用Shell脚本: 部署流程的主要骨架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-2" value="调用Shell脚本: 部署流程的主要骨架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-670" y="7950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-3" target="lwCi4-xqn7X1TZTFm4Vd-8">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lwCi4-xqn7X1TZTFm4Vd-3" target="lwCi4-xqn7X1TZTFm4Vd-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-3" value="启动Docker实例：&lt;br&gt;包含将package映射到docker容器内；" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-3" value="启动Docker实例：&lt;br&gt;包含将package映射到docker容器内；" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-670" y="8060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-4" value="解析tar包，根据目录层级找到shell脚本，然后通过java程序要执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-4" value="解析tar包，根据目录层级找到shell脚本，然后通过java程序要执行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-434" y="7830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-8" value="Python模板的渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-8" value="Python模板的渲染" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-670" y="8183" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-10" value="主要目的是生成配置文件；" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-10" value="主要目的是生成配置文件；" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-444" y="8183" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-11" value="在Docker内执行Ansible文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-11" value="在Docker内执行Ansible文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-670" y="8290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-15" value="&lt;ol&gt;&lt;li&gt;目录文件的定义&lt;/li&gt;&lt;li&gt;描述文件中key值得理解&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="lwCi4-xqn7X1TZTFm4Vd-15" value="&lt;ol&gt;&lt;li&gt;目录文件的定义&lt;/li&gt;&lt;li&gt;描述文件中key值得理解&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-380" y="8000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-1" value="api-transform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="8430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1Cy0MJQXHQWKl3Jy9a3-2" target="-1Cy0MJQXHQWKl3Jy9a3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1Cy0MJQXHQWKl3Jy9a3-2" target="-1Cy0MJQXHQWKl3Jy9a3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-2" value="Gateway-Adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="8280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-3" value="Ctcmp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="8540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-4" value="1）完成云桌面请求到Ctcmp请求URL的转换&lt;br&gt;2）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="8410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-5" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="8220" width="10" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-6" value="非云桌面资源池类型" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="8170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-7" value="云桌面类型" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="734" y="8183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-8" value="DataEnginrSdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="8650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-1Cy0MJQXHQWKl3Jy9a3-9" target="-1Cy0MJQXHQWKl3Jy9a3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-9" value="网络控制台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498" y="8110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-11" value="业管网关，数据使用云桌面的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672" y="8430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-14" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-47.5" y="8650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-15" value="1）完成云桌面和非云桌面资源池的区分" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="8270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-16" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="8280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-17" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="8420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Cy0MJQXHQWKl3Jy9a3-19" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="8650" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
