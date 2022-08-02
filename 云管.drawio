@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T09:23:34.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vtlV8-fTTSXq-a4JH5uH" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T09:24:21.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="is30Vy5IbEvnhlXh78fs" version="20.2.2" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="2862" dy="1132" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="781" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -855,13 +855,13 @@
           </mxCell>
         </UserObject>
         <UserObject label="平台侧" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-76">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
             <mxGeometry x="868" y="6446" width="20" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="租户侧" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-77">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
-            <mxGeometry x="868" y="6546" width="20" height="80" as="geometry" />
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
+            <mxGeometry x="868" y="6567" width="20" height="54" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="pYMUtFmMxMeZQwxI1PT9-29" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.042;entryY=0.751;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
