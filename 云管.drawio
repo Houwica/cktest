@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T09:15:06.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="E0-dZrNh9OUBex4rmLe3" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T09:23:34.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vtlV8-fTTSXq-a4JH5uH" version="20.2.2" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="2862" dy="1132" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-61" value="运营侧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;rotation=90;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-61" value="运营侧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=7;rotation=90;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="6470" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tBHKLctIXgyot9-Yo7T3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tBHKLctIXgyot9-Yo7T3-6" target="tBHKLctIXgyot9-Yo7T3-15" edge="1">
@@ -802,65 +802,65 @@
         <mxCell id="RlNPRhiDvZ_aDvy_OEjr-54" value="发布" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="404" y="6090" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="498" y="6426" width="60" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-56" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="558" y="6426" width="360" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-57" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;dashed=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="568" y="6436" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="558" y="6636" width="360" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-59" value="配额策略管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-59" value="配额模板管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="6450" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-60" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-60" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="498" y="6636" width="60" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-62" value="配额项设置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="720" y="6450" width="80" height="30" as="geometry" />
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-62" value="配额项设置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="6450" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-64" value="租户配额管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-64" value="租户配额管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="6490" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-65" value="配额策略详情" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="720" y="6490" width="80" height="30" as="geometry" />
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-65" value="配额模板详情" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="6490" width="91" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-66" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;dashed=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="568" y="6556" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-67" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;dashed=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="568" y="6646" width="330" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-68" value="配额校验与控制" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-68" value="配额校验与控制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="6670" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-69" value="配额使用量采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-69" value="配额使用量采集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="6670" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-72" value="租户配额用量" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="590" y="6570" width="80" height="30" as="geometry" />
+        <mxCell id="RlNPRhiDvZ_aDvy_OEjr-72" value="租户配额用量" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="587.25" y="6578" width="80" height="30" as="geometry" />
         </mxCell>
         <UserObject label="管理域" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-74">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;" parent="1" vertex="1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
             <mxGeometry x="518" y="6491" width="20" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="应用&lt;br&gt;域" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-75">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;" parent="1" vertex="1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
             <mxGeometry x="518" y="6641" width="20" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="平台侧" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-76">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;" parent="1" vertex="1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
             <mxGeometry x="868" y="6446" width="20" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="租户侧" placeholders="1" name="Variable" id="RlNPRhiDvZ_aDvy_OEjr-77">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;" parent="1" vertex="1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=7;direction=north;rounded=1;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
             <mxGeometry x="868" y="6546" width="20" height="80" as="geometry" />
           </mxCell>
         </UserObject>
