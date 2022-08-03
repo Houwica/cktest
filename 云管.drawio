@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T02:03:10.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EQN23Cyb3U8QR2WC3sBh" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T02:11:57.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RmW993QzxMHjFhHPekm2" version="20.2.2" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="1668" dy="460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2862" dy="1132" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1152,16 +1152,16 @@
           <mxGeometry x="-680" y="9640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-1" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="7069" width="120" height="60" as="geometry" />
+          <mxGeometry x="102" y="7063" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-2" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="254" y="7069" width="120" height="60" as="geometry" />
+          <mxGeometry x="254" y="7063" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-3" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="409" y="7069" width="120" height="60" as="geometry" />
+          <mxGeometry x="415" y="7063" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-4" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="567.25" y="7069" width="120" height="60" as="geometry" />
+          <mxGeometry x="572.25" y="7061" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-6" value="PaaS层" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="5" y="7066" width="60" height="156" as="geometry" />
@@ -1170,28 +1170,49 @@
           <mxGeometry x="5" y="7222" width="60" height="165" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-8" value="天翼云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="102" y="7325" width="120" height="60" as="geometry" />
+          <mxGeometry x="105" y="7333" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-10" value="华为云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="263" y="7323" width="120" height="60" as="geometry" />
+          <mxGeometry x="265" y="7341" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-11" value="私有云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="7323" width="120" height="60" as="geometry" />
+          <mxGeometry x="426.13" y="7337" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="96" y="7145" width="600" height="162" as="geometry" />
+          <mxGeometry x="96" y="7139" width="600" height="177" as="geometry" />
         </mxCell>
-        <mxCell id="T49u-9uXBWhHLX20HMtV-13" value="统一资源配额模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="155" y="7153" width="453" height="30" as="geometry" />
+        <mxCell id="T49u-9uXBWhHLX20HMtV-13" value="统一资源配额模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="7139" width="453" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-14" value="专属云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="7323" width="120" height="60" as="geometry" />
+          <mxGeometry x="572.25" y="7333" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-15" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textOpacity=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5" y="7387" width="725" height="359" as="geometry" />
+          <mxGeometry x="85" y="7699" width="725" height="359" as="geometry" />
         </mxCell>
-        <mxCell id="T49u-9uXBWhHLX20HMtV-16" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="7185" width="120" height="60" as="geometry" />
+        <mxCell id="T49u-9uXBWhHLX20HMtV-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="7174" width="262" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-18" value="资源拦截器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="7175" width="119" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-20" value="请求拦截" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="135" y="7203" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-21" value="请求拦截器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="-253" y="7417" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-22" value="报文解析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="265" y="7203" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-25" value="数据采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="133" y="7259" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-26" value="数据校验" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="267" y="7259" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420.25" y="7174" width="262" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
