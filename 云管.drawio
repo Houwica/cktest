@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T02:13:54.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="69KARme8Af0ze1NL1O8Q" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T02:31:10.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NxuKv09fXmDzfRb0LFfg" version="20.2.2" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="2862" dy="1132" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1170,13 +1170,13 @@
           <mxGeometry x="5" y="7222" width="60" height="182" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-8" value="天翼云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="7333" width="120" height="60" as="geometry" />
+          <mxGeometry x="105" y="7344" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-10" value="华为云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="7341" width="120" height="60" as="geometry" />
+          <mxGeometry x="256" y="7344" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-11" value="私有云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="426.13" y="7337" width="120" height="60" as="geometry" />
+          <mxGeometry x="418" y="7341" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="96" y="7139" width="600" height="177" as="geometry" />
@@ -1185,10 +1185,10 @@
           <mxGeometry x="159" y="7139" width="453" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-14" value="专属云" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="572.25" y="7333" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="7341" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-15" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;textOpacity=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-5" y="7048" width="725" height="363" as="geometry" />
+          <mxGeometry x="-4.5" y="7053.5" width="714" height="359.5" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="108" y="7174" width="262" height="130" as="geometry" />
@@ -1197,25 +1197,31 @@
           <mxGeometry x="172.5" y="7175" width="119" height="25" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-20" value="请求拦截" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="135" y="7203" width="70" height="40" as="geometry" />
+          <mxGeometry x="126" y="7202" width="89" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-21" value="请求拦截器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="-253" y="7417" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T49u-9uXBWhHLX20HMtV-22" value="报文解析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="265" y="7203" width="70" height="40" as="geometry" />
+        <mxCell id="T49u-9uXBWhHLX20HMtV-22" value="报文解析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="252" y="7203" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-25" value="数据采集" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="133" y="7259" width="70" height="40" as="geometry" />
+          <mxGeometry x="128.5" y="7255" width="83" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-26" value="数据校验" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="267" y="7259" width="70" height="40" as="geometry" />
+          <mxGeometry x="254" y="7257" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420.25" y="7174" width="262" height="130" as="geometry" />
+          <mxGeometry x="420.25" y="7175" width="262" height="130" as="geometry" />
         </mxCell>
         <mxCell id="T49u-9uXBWhHLX20HMtV-28" value="资源适配器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="491" y="7174" width="119" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-32" value="统一化北向API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="457" y="7215" width="71" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T49u-9uXBWhHLX20HMtV-33" value="请求路由" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;strokeWidth=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="572.25" y="7218" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
