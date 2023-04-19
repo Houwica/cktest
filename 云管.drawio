@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T09:10:40.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="tfclEI5OYq60rMd0qkvP" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:11:23.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="30EtPxL_PCeL1YceGjZk" version="21.1.1" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="2630" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1352,11 +1352,11 @@
         <mxCell id="7xFSh8nUaGuyTPGdf0cw-33" value="Pod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-189" y="9925" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7xFSh8nUaGuyTPGdf0cw-38" value="能否跨主机拉取？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7xFSh8nUaGuyTPGdf0cw-38" value="不能跨主机拉取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-470" y="10170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7xFSh8nUaGuyTPGdf0cw-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-606" y="9896" width="201" height="342" as="geometry" />
+          <mxGeometry x="-604" y="9899" width="201" height="342" as="geometry" />
         </mxCell>
         <mxCell id="7xFSh8nUaGuyTPGdf0cw-55" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;实现细节：log-agent对外暴露固定的访问方式&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1）log-agent部署时，网络设置为hostNetwork, ametric-agent可直接通过127.0.0.1&amp;nbsp; + log-agent暴露的端口访问；&amp;nbsp; &amp;nbsp; 已与CCSE同事确认，可行&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2）ametric-agent访问log-agent时配置文件的生成，在组件开通时，通过类似生成node-exporter&lt;br&gt;配置文件的方式，多生成一份log-agent指标拉取的配置文件， 与黄智宇确认 可行；&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-615" y="9816" width="544" height="76" as="geometry" />
