@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T02:36:46.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CWpblSB-awYvK7dJY2lS" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T02:41:30.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gUXvmLvXslf1leq-6ro7" version="21.6.9" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="3640" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1542,6 +1542,11 @@
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h3_6rqPTCTLkVNMRqOoM-7" target="h3_6rqPTCTLkVNMRqOoM-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-104" value="1&amp;nbsp; &amp;nbsp;：&amp;nbsp; &amp;nbsp;1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;fontSize=12;fontStyle=1" vertex="1" connectable="0" parent="h3_6rqPTCTLkVNMRqOoM-88">
+          <mxGeometry x="0.1573" y="5" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-7" value="ALS实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-827.5" y="11893.5" width="120" height="47" as="geometry" />
         </mxCell>
@@ -1670,7 +1675,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-103" value="日志服务ER图" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=20;startSize=46;" vertex="1" parent="1">
-          <mxGeometry x="-1068" y="11378" width="1154" height="731" as="geometry" />
+          <mxGeometry x="-1050" y="11394" width="1154" height="731" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="h3_6rqPTCTLkVNMRqOoM-103" source="h3_6rqPTCTLkVNMRqOoM-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="886.8235294117649" y="332.11807789522027" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-105" value="日志存储的基本单元，一个日志单元对应一张CK表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
+          <mxGeometry x="915" y="243" width="115" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-107" value="项目名称" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
+          <mxGeometry x="459" y="97" width="112" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="h3_6rqPTCTLkVNMRqOoM-103" source="h3_6rqPTCTLkVNMRqOoM-107" target="h3_6rqPTCTLkVNMRqOoM-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-114" value="项目名称" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
+          <mxGeometry x="587" y="78" width="112" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
