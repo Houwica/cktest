@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T02:59:44.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="X41B6SgzrudXz0ZZ2IN2" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T03:00:48.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R_fG94-Hl2ltKoensNE1" version="21.6.9" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="3640" dy="1344" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1570,8 +1570,10 @@
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3_6rqPTCTLkVNMRqOoM-11" target="h3_6rqPTCTLkVNMRqOoM-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h3_6rqPTCTLkVNMRqOoM-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3_6rqPTCTLkVNMRqOoM-11" target="h3_6rqPTCTLkVNMRqOoM-115">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3_6rqPTCTLkVNMRqOoM-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-234" y="11452.999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h3_6rqPTCTLkVNMRqOoM-11" target="h3_6rqPTCTLkVNMRqOoM-118">
           <mxGeometry relative="1" as="geometry" />
@@ -1666,7 +1668,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-103" value="日志服务ER图" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=20;startSize=46;" vertex="1" parent="1">
-          <mxGeometry x="-1085" y="11285" width="1236" height="806" as="geometry" />
+          <mxGeometry x="-1098" y="11272" width="1236" height="806" as="geometry" />
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-124" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
           <mxGeometry x="47" y="1" width="169" height="169" as="geometry" />
@@ -1677,11 +1679,8 @@
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="h3_6rqPTCTLkVNMRqOoM-103" source="h3_6rqPTCTLkVNMRqOoM-107" target="h3_6rqPTCTLkVNMRqOoM-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h3_6rqPTCTLkVNMRqOoM-115" value="数据加工任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
-          <mxGeometry x="927" y="107" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-118" value="数据投递任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
-          <mxGeometry x="966" y="219" width="120" height="60" as="geometry" />
+          <mxGeometry x="1017" y="115" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="h3_6rqPTCTLkVNMRqOoM-103" source="h3_6rqPTCTLkVNMRqOoM-120" target="h3_6rqPTCTLkVNMRqOoM-107">
           <mxGeometry relative="1" as="geometry" />
@@ -1719,11 +1718,14 @@
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-126" value="日志存储的实体抽象，一个日志单元对应一张CK表" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
           <mxGeometry x="989" y="320" width="148" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="h3_6rqPTCTLkVNMRqOoM-129" value="1&amp;nbsp; &amp;nbsp; ：&amp;nbsp; &amp;nbsp;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;rotation=-75;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
-          <mxGeometry x="764.2" y="272.64" width="204.61" height="30" as="geometry" />
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-129" value="1&amp;nbsp; &amp;nbsp; ：&amp;nbsp; &amp;nbsp;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;rotation=-90;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
+          <mxGeometry x="714.7" y="296.7" width="272" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-131" value="1&amp;nbsp; &amp;nbsp; ：&amp;nbsp; &amp;nbsp;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;rotation=-70;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
-          <mxGeometry x="894" y="339" width="60" height="30" as="geometry" />
+          <mxGeometry x="818.78" y="280.74" width="267.73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-132" value="数据加工任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
+          <mxGeometry x="791" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
