@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T03:53:25.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UNMNctJnUIk2FoYiq82R" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T03:55:29.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jy4dPf8f5dalZdFNNjRV" version="21.6.9" type="github">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
     <mxGraphModel dx="4094" dy="1344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1707,7 +1707,7 @@
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-123" value="属性描述" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
           <mxGeometry x="156" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h3_6rqPTCTLkVNMRqOoM-20" value="主机组：全局资源，不属于任一日志项目，后续使用机器组命名" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
+        <mxCell id="h3_6rqPTCTLkVNMRqOoM-20" value="主机组：全局资源，不属于任一日志项目，&lt;br&gt;租户资源抽象" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
           <mxGeometry x="1111" y="551.75" width="157" height="120.5" as="geometry" />
         </mxCell>
         <mxCell id="h3_6rqPTCTLkVNMRqOoM-125" value="存储时长" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="h3_6rqPTCTLkVNMRqOoM-103">
