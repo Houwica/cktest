@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="3566" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3034" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1819,7 +1819,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUk2wGXuqqjIuD5fnrni-2" value="" style="shape=link;html=1;rounded=0;exitX=0.002;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" edge="1" source="MUk2wGXuqqjIuD5fnrni-30">
+        <mxCell id="MUk2wGXuqqjIuD5fnrni-2" value="" style="shape=link;html=1;rounded=0;exitX=0.002;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="MUk2wGXuqqjIuD5fnrni-30" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="-690" y="12460" as="sourcePoint" />
             <mxPoint x="-70" y="12460" as="targetPoint" />
@@ -1886,14 +1886,14 @@
         <mxCell id="MUk2wGXuqqjIuD5fnrni-21" value="lmtagent" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-329" y="12600" width="66" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="438kg2sYjxt3AQDt--fO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MUk2wGXuqqjIuD5fnrni-22" target="438kg2sYjxt3AQDt--fO-2">
+        <mxCell id="438kg2sYjxt3AQDt--fO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MUk2wGXuqqjIuD5fnrni-22" target="438kg2sYjxt3AQDt--fO-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-335" y="12850" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="438kg2sYjxt3AQDt--fO-6" value="task-center通过PVC挂载对象存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="438kg2sYjxt3AQDt--fO-5">
+        <mxCell id="438kg2sYjxt3AQDt--fO-6" value="task-center通过PVC挂载对象存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="438kg2sYjxt3AQDt--fO-5" vertex="1" connectable="0">
           <mxGeometry x="0.0024" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2057,8 +2057,26 @@
         <mxCell id="MUk2wGXuqqjIuD5fnrni-116" value="创建PVC和PV，PVC挂载至负载" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-522.5" y="13440" width="190.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="438kg2sYjxt3AQDt--fO-2" value="OSS&lt;div&gt;预置区对象存储&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="438kg2sYjxt3AQDt--fO-2" value="OSS&lt;div&gt;预置区对象存储&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="12800" width="126" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cou4r9n3RyN1nWa3hklS-1" value="其他服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-985" y="14120" width="415" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cou4r9n3RyN1nWa3hklS-2" value="IPrePostSupporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-891" y="14190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cou4r9n3RyN1nWa3hklS-3" value="ITacheSupporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="14190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cou4r9n3RyN1nWa3hklS-4" value="task-service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="14350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cou4r9n3RyN1nWa3hklS-5" value="task-consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="14350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cou4r9n3RyN1nWa3hklS-6" value="task-timer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="14520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
