@@ -1934,8 +1934,8 @@
         <mxCell id="MUk2wGXuqqjIuD5fnrni-40" value="数据加工任务实现流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="-1250" y="13040" width="430" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MUk2wGXuqqjIuD5fnrni-62" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1168.5" y="13238" width="100" height="400" as="geometry" />
+        <mxCell id="MUk2wGXuqqjIuD5fnrni-62" value="Instance-Monitor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-2160" y="14788" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MUk2wGXuqqjIuD5fnrni-62" vertex="1">
           <mxGeometry x="45" y="50" width="10" height="350" as="geometry" />
@@ -1958,8 +1958,8 @@
             <mxPoint x="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUk2wGXuqqjIuD5fnrni-66" value="LTS控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1001" y="13238" width="110" height="409" as="geometry" />
+        <mxCell id="MUk2wGXuqqjIuD5fnrni-66" value="平台网关API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1992.5" y="14788" width="110" height="409" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MUk2wGXuqqjIuD5fnrni-66" vertex="1">
           <mxGeometry x="50" y="70" width="10" height="300" as="geometry" />
@@ -1975,7 +1975,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-69" value="预置区CCSE集群" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-615.5" y="13237" width="100" height="398" as="geometry" />
+          <mxGeometry x="-1607" y="14787" width="100" height="398" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MUk2wGXuqqjIuD5fnrni-69" vertex="1">
           <mxGeometry x="45" y="149" width="10" height="61" as="geometry" />
@@ -2004,29 +2004,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MUk2wGXuqqjIuD5fnrni-73" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1136.5" y="13190" width="30" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-76" value="CCSE控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-811" y="13237" width="110" height="397" as="geometry" />
+          <mxGeometry x="-1802.5" y="14787" width="110" height="397" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MUk2wGXuqqjIuD5fnrni-76" vertex="1">
           <mxGeometry x="50" y="129.5" width="10" height="183" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-81" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.167;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MUk2wGXuqqjIuD5fnrni-77" target="MUk2wGXuqqjIuD5fnrni-66" edge="1">
           <mxGeometry x="-0.0616" y="-10" relative="1" as="geometry">
-            <mxPoint x="-768.6700000000001" y="13525" as="sourcePoint" />
-            <mxPoint x="-930" y="13530" as="targetPoint" />
+            <mxPoint x="-1760.17" y="15075" as="sourcePoint" />
+            <mxPoint x="-1921.5" y="15080" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-88" value="生成导入任务记录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-910" y="13314" width="104.5" height="30" as="geometry" />
+          <mxGeometry x="-1901.5" y="14864" width="104.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-95" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-942" y="13380" as="sourcePoint" />
-            <mxPoint x="-760" y="13380" as="targetPoint" />
+            <mxPoint x="-1933.5" y="14930" as="sourcePoint" />
+            <mxPoint x="-1751.5" y="14930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-104" value="调用ccse api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MUk2wGXuqqjIuD5fnrni-95" vertex="1" connectable="0">
@@ -2035,27 +2032,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-100" value="创建采集器Pod以及configMap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-530.5" y="13400" width="181" height="30" as="geometry" />
+          <mxGeometry x="-1522" y="14950" width="181" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-110" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.167;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0616" y="-10" relative="1" as="geometry">
-            <mxPoint x="-570" y="13501" as="sourcePoint" />
-            <mxPoint x="-757" y="13501" as="targetPoint" />
+            <mxPoint x="-1561.5" y="15051" as="sourcePoint" />
+            <mxPoint x="-1748.5" y="15051" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-115" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.2;entryY=0.65;fontSize=7;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-559" y="13443" as="sourcePoint" />
+            <mxPoint x="-1550.5" y="14993" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-528" y="13443" />
-              <mxPoint x="-528" y="13463" />
+              <mxPoint x="-1519.5" y="14993" />
+              <mxPoint x="-1519.5" y="15013" />
             </Array>
-            <mxPoint x="-556.5" y="13463" as="targetPoint" />
+            <mxPoint x="-1548" y="15013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MUk2wGXuqqjIuD5fnrni-116" value="创建PVC和PV，PVC挂载至负载" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-522.5" y="13440" width="190.5" height="30" as="geometry" />
+          <mxGeometry x="-1514" y="14990" width="190.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="438kg2sYjxt3AQDt--fO-2" value="OSS&lt;div&gt;预置区对象存储&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="12800" width="126" height="90" as="geometry" />
@@ -2120,6 +2117,153 @@
         </mxCell>
         <mxCell id="Awv_fIS_OOmum0g8BATQ-50" value="组件实例异常感知实现流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="-2200" y="14570" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-76" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1176.5" y="13218" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Awv_fIS_OOmum0g8BATQ-76">
+          <mxGeometry x="45" y="50" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-78" value="导入任务创建结束" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="Awv_fIS_OOmum0g8BATQ-76">
+          <mxGeometry x="0.0031" relative="1" as="geometry">
+            <mxPoint x="217.5" y="363" as="sourcePoint" />
+            <mxPoint x="58" y="363" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-79" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Awv_fIS_OOmum0g8BATQ-76" target="Awv_fIS_OOmum0g8BATQ-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58.5" y="82" as="sourcePoint" />
+            <mxPoint x="208.5" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-80" value="创建导入任务" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Awv_fIS_OOmum0g8BATQ-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-81" value="LTS控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1009" y="13218" width="110" height="409" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-82" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Awv_fIS_OOmum0g8BATQ-81">
+          <mxGeometry x="50" y="70" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-83" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.2;entryY=0.65;fontSize=7;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Awv_fIS_OOmum0g8BATQ-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="86.3" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="91" y="86.3" />
+              <mxPoint x="91" y="106.3" />
+            </Array>
+            <mxPoint x="62.5" y="105.94999999999963" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-84" value="预置区CCSE集群" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-623.5" y="13217" width="100" height="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Awv_fIS_OOmum0g8BATQ-84">
+          <mxGeometry x="45" y="149" width="10" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=7;strokeWidth=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="Awv_fIS_OOmum0g8BATQ-84">
+          <mxGeometry x="44.5" y="189" width="10" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-87" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.2;entryY=0.65;fontSize=7;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Awv_fIS_OOmum0g8BATQ-84" target="Awv_fIS_OOmum0g8BATQ-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54.5" y="169" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="169" />
+              <mxPoint x="85" y="189" />
+            </Array>
+            <mxPoint x="63.5" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Awv_fIS_OOmum0g8BATQ-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-136.5" y="163" as="sourcePoint" />
+            <mxPoint x="45.5" y="163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-89" value="创建工作负载和ConfigMap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Awv_fIS_OOmum0g8BATQ-88">
+          <mxGeometry x="-0.044" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-90" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1144.5" y="13170" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-91" value="CCSE控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-819" y="13217" width="110" height="397" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-92" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Awv_fIS_OOmum0g8BATQ-91">
+          <mxGeometry x="50" y="129.5" width="10" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-93" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.167;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Awv_fIS_OOmum0g8BATQ-92" target="Awv_fIS_OOmum0g8BATQ-81">
+          <mxGeometry x="-0.0616" y="-10" relative="1" as="geometry">
+            <mxPoint x="-776.6700000000001" y="13505" as="sourcePoint" />
+            <mxPoint x="-938" y="13510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-94" value="生成导入任务记录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-918" y="13294" width="104.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-95" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-950" y="13360" as="sourcePoint" />
+            <mxPoint x="-768" y="13360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-96" value="调用ccse api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Awv_fIS_OOmum0g8BATQ-95">
+          <mxGeometry x="-0.1099" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-97" value="创建采集器Pod以及configMap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-538.5" y="13380" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-98" value="返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.167;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0616" y="-10" relative="1" as="geometry">
+            <mxPoint x="-578" y="13481" as="sourcePoint" />
+            <mxPoint x="-765" y="13481" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-99" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1.2;entryY=0.65;fontSize=7;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-567" y="13423" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-536" y="13423" />
+              <mxPoint x="-536" y="13443" />
+            </Array>
+            <mxPoint x="-564.5" y="13443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-100" value="创建PVC和PV，PVC挂载至负载" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530.5" y="13420" width="190.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Awv_fIS_OOmum0g8BATQ-101" target="Awv_fIS_OOmum0g8BATQ-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-101" value="增量/全量同步实例数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1840" y="15440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Awv_fIS_OOmum0g8BATQ-102" target="Awv_fIS_OOmum0g8BATQ-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-102" value="平台API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1660" y="15440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Awv_fIS_OOmum0g8BATQ-103" target="Awv_fIS_OOmum0g8BATQ-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-103" value="实例数据本地缓存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="15420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-106" value="定时获取实例信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="15440" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-109" value="VictoriadStorage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1218" y="15440" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
