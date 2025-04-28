@@ -2298,6 +2298,9 @@
         <mxCell id="Awv_fIS_OOmum0g8BATQ-126" value="服务启动缓存预热，全量同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1507" y="15330" width="107" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Awv_fIS_OOmum0g8BATQ-127" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.prometheus;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="15270" width="48.9" height="48.9" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
