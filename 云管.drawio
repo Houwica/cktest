@@ -2301,7 +2301,7 @@
         <mxCell id="klMdU7mRZEGAJLoWuadw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="klMdU7mRZEGAJLoWuadw-1" target="klMdU7mRZEGAJLoWuadw-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="klMdU7mRZEGAJLoWuadw-1" value="cmplogadmin获取OSS&lt;div&gt;endpoint&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="klMdU7mRZEGAJLoWuadw-1" value="cmplogadmin获取OSS E&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ndpoint&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="96" width="120" height="44" as="geometry" />
         </mxCell>
         <mxCell id="klMdU7mRZEGAJLoWuadw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="klMdU7mRZEGAJLoWuadw-2" target="klMdU7mRZEGAJLoWuadw-3">
