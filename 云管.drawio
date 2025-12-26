@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="waidF4U7dSzLiBv9r_9v-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="440" width="770" x="-2700" y="16030" as="geometry" />
+        </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
           <mxGeometry height="190" width="770" x="-2700" y="15770" as="geometry" />
         </mxCell>
@@ -2415,6 +2418,9 @@
         <mxCell id="waidF4U7dSzLiBv9r_9v-25" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="waidF4U7dSzLiBv9r_9v-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-34" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="waidF4U7dSzLiBv9r_9v-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="paas-gateway" vertex="1">
           <mxGeometry height="60" width="120" x="-2360" y="15850" as="geometry" />
         </mxCell>
@@ -2425,10 +2431,16 @@
           <mxGeometry height="60" width="120" x="-2185.55" y="15850" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="paas-gateway" vertex="1">
-          <mxGeometry height="60" width="120" x="-2560" y="16060" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2360" y="16050" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PG" vertex="1">
           <mxGeometry height="80" width="40" x="-1990" y="15840" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Global Area" vertex="1">
+          <mxGeometry height="30" width="80" x="-2700" y="15770" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Preset Area" vertex="1">
+          <mxGeometry height="30" width="70" x="-2700" y="16030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
