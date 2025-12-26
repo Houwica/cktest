@@ -2451,7 +2451,7 @@
           <mxGeometry height="30" width="80" x="-2790" y="15755" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Preset Area" vertex="1">
-          <mxGeometry height="30" width="70" x="-2700" y="16010" as="geometry" />
+          <mxGeometry height="30" width="70" x="-2790" y="16010" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="paas-agent" vertex="1">
           <mxGeometry height="60" width="120" x="-2361" y="16110" as="geometry" />
@@ -2517,7 +2517,7 @@
         <mxCell id="waidF4U7dSzLiBv9r_9v-78" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="waidF4U7dSzLiBv9r_9v-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="waidF4U7dSzLiBv9r_9v-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DJS Proxy" vertex="1">
+        <mxCell id="waidF4U7dSzLiBv9r_9v-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DJS Proxy&lt;div&gt;(djs内置转发模块，非独立进程)&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="110" x="-2180.55" y="15907" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="worker监听:27777端口" vertex="1">
