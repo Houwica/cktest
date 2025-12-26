@@ -2448,7 +2448,7 @@
           <mxGeometry height="80" width="40" x="-1990" y="15795" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Global Area" vertex="1">
-          <mxGeometry height="30" width="80" x="-2700" y="15755" as="geometry" />
+          <mxGeometry height="30" width="80" x="-2790" y="15755" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Preset Area" vertex="1">
           <mxGeometry height="30" width="70" x="-2700" y="16010" as="geometry" />
