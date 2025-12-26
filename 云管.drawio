@@ -2436,6 +2436,11 @@
         <mxCell id="waidF4U7dSzLiBv9r_9v-73" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="waidF4U7dSzLiBv9r_9v-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-90" connectable="0" parent="waidF4U7dSzLiBv9r_9v-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据请求Body中URL 转发至具体server" vertex="1">
+          <mxGeometry relative="1" x="0.8207" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="paas-gateway" vertex="1">
           <mxGeometry height="60" width="120" x="-2360" y="16020" as="geometry" />
         </mxCell>
@@ -2513,7 +2518,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DJS Proxy" vertex="1">
-          <mxGeometry height="40" width="110" x="-2180.55" y="15920" as="geometry" />
+          <mxGeometry height="40" width="110" x="-2180.55" y="15907" as="geometry" />
         </mxCell>
         <mxCell id="waidF4U7dSzLiBv9r_9v-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="worker监听:27777端口" vertex="1">
           <mxGeometry height="30" width="130" x="-2530" y="16280" as="geometry" />
@@ -2524,8 +2529,8 @@
         <mxCell id="waidF4U7dSzLiBv9r_9v-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="djs meta表" vertex="1">
           <mxGeometry height="35" width="120" x="-2980" y="15785" as="geometry" />
         </mxCell>
-        <mxCell id="waidF4U7dSzLiBv9r_9v-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="djs meta表" vertex="1">
-          <mxGeometry height="35" width="120" x="-2920" y="15800" as="geometry" />
+        <mxCell id="waidF4U7dSzLiBv9r_9v-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="job表" vertex="1">
+          <mxGeometry height="35" width="120" x="-2980" y="15830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
