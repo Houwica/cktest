@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="4466" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1" adaptiveColors="none">
+    <mxGraphModel dx="4866" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="waidF4U7dSzLiBv9r_9v-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="190" width="770" x="-2700" y="15770" as="geometry" />
+        </mxCell>
         <mxCell id="Awv_fIS_OOmum0g8BATQ-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" value="" vertex="1">
           <mxGeometry height="130" width="170" x="-1050" y="15370" as="geometry" />
         </mxCell>
@@ -2394,6 +2397,38 @@
         </mxCell>
         <mxCell id="aQwWR3ym8LvRlaz4SEjV-40" edge="1" parent="1" source="MUk2wGXuqqjIuD5fnrni-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="438kg2sYjxt3AQDt--fO-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-22" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2590" y="15880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-23" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="waidF4U7dSzLiBv9r_9v-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="cmplogadmin" vertex="1">
+          <mxGeometry height="60" width="120" x="-2530" y="15850" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PG" vertex="1">
+          <mxGeometry height="80" width="40" x="-2640" y="15840" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-25" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="waidF4U7dSzLiBv9r_9v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="paas-gateway" vertex="1">
+          <mxGeometry height="60" width="120" x="-2360" y="15850" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-28" edge="1" parent="1" source="waidF4U7dSzLiBv9r_9v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="waidF4U7dSzLiBv9r_9v-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DJS" vertex="1">
+          <mxGeometry height="60" width="120" x="-2185.55" y="15850" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="paas-gateway" vertex="1">
+          <mxGeometry height="60" width="120" x="-2560" y="16060" as="geometry" />
+        </mxCell>
+        <mxCell id="waidF4U7dSzLiBv9r_9v-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="PG" vertex="1">
+          <mxGeometry height="80" width="40" x="-1990" y="15840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
