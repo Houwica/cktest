@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="4866" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1" adaptiveColors="none">
+    <mxGraphModel dx="5231" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2473,7 +2473,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="waidF4U7dSzLiBv9r_9v-84" connectable="0" parent="waidF4U7dSzLiBv9r_9v-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="上报心跳或获取DJS server IP" vertex="1">
+        <mxCell id="waidF4U7dSzLiBv9r_9v-84" connectable="0" parent="waidF4U7dSzLiBv9r_9v-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1、上报心跳以及worker IP&lt;div&gt;2、获取DJS server IP&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1918" y="-45" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
