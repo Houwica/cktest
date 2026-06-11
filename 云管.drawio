@@ -2563,10 +2563,10 @@
           <mxGeometry height="53" width="120" x="-2370" y="16520" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kafka Consumer常驻任务" vertex="1">
-          <mxGeometry height="60" width="120" x="-3626" y="16810" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3624" y="16843" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="120" width="650" x="-3778" y="16775" as="geometry" />
+          <mxGeometry height="145" width="642" x="-3770" y="16775" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kafka Broker" vertex="1">
           <mxGeometry height="60" width="120" x="-3766" y="16980" as="geometry" />
@@ -2592,7 +2592,7 @@
           <mxGeometry height="60" width="120" x="-3758" y="16560" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PowerJob Server" vertex="1">
-          <mxGeometry height="30" width="110" x="-3726" y="16520" as="geometry" />
+          <mxGeometry height="30" width="110" x="-3753" y="16520" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-25" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-11">
           <mxGeometry relative="1" as="geometry" />
@@ -2623,9 +2623,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务 A&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="-3601" y="16810" as="geometry" />
+          <mxGeometry height="50" width="120" x="-3599" y="16843" as="geometry" />
         </mxCell>
-        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PowerJob Worker&lt;div&gt;常驻任务管理&lt;/div&gt;" vertex="1">
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="PowerJob Worker&lt;div&gt;常驻任务管理&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="-3476" y="16780" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务分区管理模块" vertex="1">
@@ -2648,10 +2648,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务 B&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="-3410" y="16810" as="geometry" />
+          <mxGeometry height="50" width="120" x="-3408" y="16843" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务 C&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="-3260" y="16810" as="geometry" />
+          <mxGeometry height="50" width="120" x="-3258" y="16843" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
