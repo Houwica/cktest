@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" version="29.2.9">
   <diagram id="YKyKrxaOJm8cSqs0rw-M" name="Page-1">
-    <mxGraphModel dx="6031" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1" adaptiveColors="none">
+    <mxGraphModel dx="6066" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2563,25 +2563,22 @@
           <mxGeometry height="53" width="120" x="-2370" y="16520" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kafka Consumer常驻任务" vertex="1">
-          <mxGeometry height="60" width="120" x="-3298" y="16810" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3626" y="16810" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="120" width="370" x="-3398" y="16775" as="geometry" />
+          <mxGeometry height="120" width="650" x="-3778" y="16775" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kafka Broker" vertex="1">
-          <mxGeometry height="60" width="120" x="-3438" y="16980" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3766" y="16980" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kafka Broker" vertex="1">
-          <mxGeometry height="60" width="120" x="-3273" y="16980" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3601" y="16980" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Kafka Broker&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-3118" y="16980" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3446" y="16980" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="203.5" width="638" x="-3438" y="16516.5" as="geometry" />
-        </mxCell>
-        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PowerJob Server" vertex="1">
-          <mxGeometry height="60" width="120" x="-3248" y="16340" as="geometry" />
+          <mxGeometry height="203.5" width="638" x="-3766" y="16516.5" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-18" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -2592,10 +2589,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dispatacher" vertex="1">
-          <mxGeometry height="60" width="120" x="-3430" y="16560" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3758" y="16560" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PowerJob Server" vertex="1">
-          <mxGeometry height="30" width="110" x="-3398" y="16520" as="geometry" />
+          <mxGeometry height="30" width="110" x="-3726" y="16520" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-25" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-11">
           <mxGeometry relative="1" as="geometry" />
@@ -2606,10 +2603,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Worker Manager" vertex="1">
-          <mxGeometry height="60" width="120" x="-3210" y="16560" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3538" y="16560" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="TaskMeta Service" vertex="1">
-          <mxGeometry height="60" width="120" x="-2980" y="16560" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3308" y="16560" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-14" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-3">
           <mxGeometry relative="1" as="geometry" />
@@ -2626,19 +2623,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="-3273" y="16810" as="geometry" />
+          <mxGeometry height="50" width="120" x="-3601" y="16810" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PowerJob Worker&lt;div&gt;常驻任务管理&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="110" x="-3148" y="16780" as="geometry" />
+          <mxGeometry height="30" width="110" x="-3476" y="16780" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务分区管理模块" vertex="1">
-          <mxGeometry height="30" width="60" x="-2950" y="16630" as="geometry" />
+          <mxGeometry height="30" width="60" x="-3278" y="16630" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-29" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.369;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" target="jPJ6hwr_E7K4rNHrfgmQ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-30" connectable="0" parent="jPJ6hwr_E7K4rNHrfgmQ-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1、启动或停止任务" vertex="1">
           <mxGeometry relative="1" x="-0.5753" y="13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-32" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.542;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="jPJ6hwr_E7K4rNHrfgmQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-33" connectable="0" parent="jPJ6hwr_E7K4rNHrfgmQ-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2、上报健康状态" vertex="1">
+          <mxGeometry relative="1" x="0.3258" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
