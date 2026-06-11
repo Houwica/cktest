@@ -2605,7 +2605,7 @@
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Worker Manager" vertex="1">
           <mxGeometry height="60" width="120" x="-3538" y="16560" as="geometry" />
         </mxCell>
-        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="TaskMeta Service" vertex="1">
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="TaskMeta Module" vertex="1">
           <mxGeometry height="60" width="120" x="-3308" y="16560" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-14" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-3">
@@ -2614,7 +2614,7 @@
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-15" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-17" connectable="0" parent="jPJ6hwr_E7K4rNHrfgmQ-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="消费数据" vertex="1">
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-17" connectable="0" parent="jPJ6hwr_E7K4rNHrfgmQ-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2、消费数据" vertex="1">
           <mxGeometry relative="1" x="0.0595" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2622,7 +2622,7 @@
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-16" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jPJ6hwr_E7K4rNHrfgmQ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务&lt;/div&gt;" vertex="1">
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务 A&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="-3601" y="16810" as="geometry" />
         </mxCell>
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PowerJob Worker&lt;div&gt;常驻任务管理&lt;/div&gt;" vertex="1">
@@ -2642,10 +2642,16 @@
         <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-32" edge="1" parent="1" source="jPJ6hwr_E7K4rNHrfgmQ-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.542;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="jPJ6hwr_E7K4rNHrfgmQ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-33" connectable="0" parent="jPJ6hwr_E7K4rNHrfgmQ-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2、上报健康状态" vertex="1">
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-33" connectable="0" parent="jPJ6hwr_E7K4rNHrfgmQ-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3、上报健康状态" vertex="1">
           <mxGeometry relative="1" x="0.3258" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务 B&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="-3410" y="16810" as="geometry" />
+        </mxCell>
+        <mxCell id="jPJ6hwr_E7K4rNHrfgmQ-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka Consumer&lt;div&gt;常驻任务 C&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="-3260" y="16810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
